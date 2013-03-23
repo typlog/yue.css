@@ -2,9 +2,8 @@
   font: 16px/1.62 "Helvetica Neue", "Arial", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
   color: #4c4c4c;
 }
-.yue p {
-  margin: 0.62em 0 1.62em;
-}
+
+/* header */
 .yue h1,
 .yue h2,
 .yue h3,
@@ -30,6 +29,11 @@
 }
 .yue h6 {
   font-weight: 500;
+}
+
+/* elements */
+.yue p {
+  margin: 0.62em 0 1.62em;
 }
 .yue a {
   color: #3d8edf;
@@ -72,6 +76,8 @@
   border-left: 4px solid #dadada;
   color: #8a8a8a;
 }
+
+/* list */
 .yue ul,
 .yue ol {
   margin-left: 14px;
@@ -102,6 +108,8 @@
 .yue li p {
   margin: 0.4em 0 0.6em;
 }
+
+/* code and pre */
 .yue code,
 .yue tt {
   color: #808080;
@@ -127,6 +135,8 @@
   background-color: none;
   padding: auto;
 }
+
+/* table */
 .yue table {
   border-collapse: collapse;
   border-spacing: 0;
