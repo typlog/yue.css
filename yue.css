@@ -56,12 +56,8 @@
   max-width: 98%;
 }
 .yue hr {
-  padding: 0.5em 0 1em;
-  margin: 14px 0;
-  border: none;
-  height: 0;
-  background: transparent;
-  vertical-align: middle;
+  border: 0 none;
+  margin-bottom: 2em;
 }
 .yue hr:after {
   color: #9f9f95;
@@ -69,6 +65,7 @@
   display: block;
   content: "* * *";
   text-align: center;
+  letter-spacing: .6em;
 }
 .yue blockquote {
   margin: 0.62em 0 1.62em;
