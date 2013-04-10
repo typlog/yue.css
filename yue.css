@@ -1,5 +1,5 @@
 .yue {
-  font: 16px/1.62 "Helvetica Neue", "Arial", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
+  font: 16px/1.62 "Helvetica Neue", "Arial", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
   color: #4c4c4c;
 }
 
@@ -36,13 +36,14 @@
   margin: 0.62em 0 1.62em;
 }
 .yue a {
-  color: #3d8edf;
+  color: #111;
   text-decoration: none;
+  border-bottom: 1px dotted #333;
   word-wrap: break-word;
 }
 .yue a:hover {
-  color: #69a7e6;
-  text-decoration: underline;
+  color: #555;
+  text-decoration: none;
 }
 .yue strong {
   font-weight: 700;
@@ -150,5 +151,5 @@
   vertical-align: top;
 }
 .yue tr:nth-child(even) {
-  background-color: #f9f9f7;
+  background-color: #efefee;
 }
