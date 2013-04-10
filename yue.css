@@ -1,5 +1,5 @@
 .yue {
-  font: 16px/1.62 "Helvetica Neue", "Arial", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
+  font: 400 16px/1.62 "Helvetica Neue", "Arial", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
   color: #4c4c4c;
 }
 
@@ -111,7 +111,7 @@
 .yue code,
 .yue tt {
   color: #808080;
-  font-size: 14px;
+  font-size: 0.96em;
   background-color: #f9f9f7;
   padding: 1px 2px;
   border: 1px solid #dadada;
@@ -123,11 +123,13 @@
   border: 1px solid #dadada;
   border-radius: 4px;
   overflow: auto;
-  font: 400 14px/1.5 "Inconsolata", "Menlo", monospace;
+  line-height: 1.5;
+  font-size: 0.96em;
+  font-family: "Inconsolata", "Menlo", monospace;
   color: #4c4c4c;
   background-color: #f9f9f7;
 }
-.yue pre code {
+.yue pre code, .yue pre tt {
   color: #4c4c4c;
   border: none;
   background-color: none;
@@ -139,7 +141,7 @@
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 1.5em;
-  font-size: 14px;
+  font-size: 0.96em;
 }
 .yue th,
 .yue td {
