@@ -1,6 +1,9 @@
 .yue {
-  font: 400 16px/1.62 "Helvetica Neue", "Arial", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
-  color: #4c4c4c;
+  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
+  color: #333332;
+}
+.yue ::selection {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* header */
@@ -33,27 +36,23 @@
 
 /* elements */
 .yue p {
-  margin: 0.62em 0 1.62em;
+  margin-bottom: 1.84em;
 }
 .yue a {
   color: #111;
-  text-decoration: none;
-  vertical-align: middle;
-  border-bottom: 1px dotted #333;
   word-wrap: break-word;
 }
 .yue a:hover {
   color: #555;
-  text-decoration: none;
 }
 .yue a.image {
   border-bottom: none;
 }
-.yue strong {
+.yue strong, .yue b {
   font-weight: 700;
   color: #222;
 }
-.yue em {
+.yue em, .yue i {
   font-style: italic;
   color: #222;
 }
@@ -74,10 +73,12 @@
   letter-spacing: .6em;
 }
 .yue blockquote {
-  margin: 0.62em 0 1.62em;
-  padding-left: 18px;
+  padding-left: 20px;
   border-left: 4px solid #dadada;
-  color: #8a8a8a;
+  /* padding-left + border-left = 24px */
+  margin-left: -24px;
+  margin-bottom: 1.84em;
+  color: #666664;
 }
 
 /* list */
