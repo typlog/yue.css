@@ -3,40 +3,44 @@
   color: #333332;
 }
 .yue ::selection {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0,0,0,0.2);
 }
-
-/* header */
 .yue h1,
 .yue h2,
 .yue h3,
 .yue h4,
 .yue h5,
 .yue h6 {
-  color: #222;
-  margin: 1.62em 0 0.62em;
+  color: #222223;
 }
 .yue h1 {
-  font-size: 1.5em;
+  font-size: 1.8em;
+  margin: 0.67em 0;
+}
+.yue > h1 {
+  margin-top: 0;
+  font-size: 2em;
 }
 .yue h2 {
-  font-size: 1.25em;
+  font-size: 1.5em;
+  margin: 0.83em 0;
 }
 .yue h3 {
-  font-size: 1.1em;
+  font-size: 1.17em;
+  margin: 1em 0;
 }
 .yue h4,
 .yue h5,
 .yue h6 {
   font-size: 1em;
+  margin: 1.6em 0 1em 0;
 }
 .yue h6 {
   font-weight: 500;
 }
-
-/* elements */
 .yue p {
-  margin-bottom: 1.84em;
+  margin-top: 0;
+  margin-bottom: 1.64em;
 }
 .yue a {
   color: #111;
@@ -48,11 +52,13 @@
 .yue a.image {
   border-bottom: none;
 }
-.yue strong, .yue b {
+.yue strong,
+.yue b {
   font-weight: 700;
   color: #222;
 }
-.yue em, .yue i {
+.yue em,
+.yue i {
   font-style: italic;
   color: #222;
 }
@@ -62,7 +68,7 @@
 }
 .yue hr {
   border: 0 none;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 .yue hr:after {
   color: #9f9f95;
@@ -70,21 +76,17 @@
   display: block;
   content: "* * *";
   text-align: center;
-  letter-spacing: .6em;
+  letter-spacing: 0.6em;
 }
 .yue blockquote {
   padding-left: 20px;
   border-left: 4px solid #dadada;
-  /* padding-left + border-left = 24px */
-  margin-left: -24px;
-  margin-bottom: 1.84em;
+  margin: 0 0 1.64em -24px;
   color: #666664;
 }
-
-/* list */
 .yue ul,
 .yue ol {
-  margin-left: 14px;
+  margin: 0 0 24px 6px;
   padding-left: 16px;
 }
 .yue ul {
@@ -94,11 +96,10 @@
   list-style-type: decimal;
 }
 .yue li {
-  margin-bottom: 0.6em;
+  margin-bottom: 0.2em;
 }
 .yue li ul,
-.yue li,
-.yue ol {
+.yue li ol {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 14px;
@@ -112,8 +113,11 @@
 .yue li p {
   margin: 0.4em 0 0.6em;
 }
-
-/* code and pre */
+.yue .unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .yue code,
 .yue tt {
   color: #808080;
@@ -121,12 +125,14 @@
   background-color: #f9f9f7;
   padding: 1px 2px;
   border: 1px solid #dadada;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   font-family: "Inconsolata", "Menlo", monospace;
 }
 .yue pre {
   padding: 7px;
   border: 1px solid #dadada;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   overflow: auto;
   line-height: 1.5;
@@ -135,14 +141,13 @@
   color: #4c4c4c;
   background-color: #f9f9f7;
 }
-.yue pre code, .yue pre tt {
+.yue pre code,
+.yue pre tt {
   color: #4c4c4c;
   border: none;
   background-color: none;
   padding: auto;
 }
-
-/* table */
 .yue table {
   border-collapse: collapse;
   border-spacing: 0;
