@@ -1,76 +1,76 @@
-body {
+.yue {
   font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
   color: #333332;
 }
-::selection {
+.yue ::selection {
   background-color: rgba(0,0,0,0.2);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.yue h1,
+.yue h2,
+.yue h3,
+.yue h4,
+.yue h5,
+.yue h6 {
   color: #222223;
 }
-h1 {
+.yue h1 {
   font-size: 1.8em;
   margin: 0.67em 0;
 }
-> h1 {
+.yue > h1 {
   margin-top: 0;
   font-size: 2em;
 }
-h2 {
+.yue h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
-h3 {
+.yue h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
-h4,
-h5,
-h6 {
+.yue h4,
+.yue h5,
+.yue h6 {
   font-size: 1em;
   margin: 1.6em 0 1em 0;
 }
-h6 {
+.yue h6 {
   font-weight: 500;
 }
-p {
+.yue p {
   margin-top: 0;
   margin-bottom: 1.64em;
 }
-a {
+.yue a {
   color: #111;
   word-wrap: break-word;
 }
-a:hover {
+.yue a:hover {
   color: #555;
 }
-a.image {
+.yue a.image {
   border-bottom: none;
 }
-strong,
-b {
+.yue strong,
+.yue b {
   font-weight: 700;
   color: #222;
 }
-em,
-i {
+.yue em,
+.yue i {
   font-style: italic;
   color: #222;
 }
-img {
+.yue img {
   max-width: 98%;
   margin: 0.2em 0;
 }
-hr {
+.yue hr {
   border: 0 none;
   margin-bottom: 1em;
 }
-hr:after {
+.yue hr:after {
   color: #9f9f95;
   font-size: 1.1em;
   display: block;
@@ -78,48 +78,48 @@ hr:after {
   text-align: center;
   letter-spacing: 0.6em;
 }
-blockquote {
+.yue blockquote {
   padding-left: 20px;
   border-left: 4px solid #dadada;
   margin: 0 0 1.64em -24px;
   color: #666664;
 }
-ul,
-ol {
+.yue ul,
+.yue ol {
   margin: 0 0 24px 6px;
   padding-left: 16px;
 }
-ul {
+.yue ul {
   list-style-type: square;
 }
-ol {
+.yue ol {
   list-style-type: decimal;
 }
-li {
+.yue li {
   margin-bottom: 0.2em;
 }
-li ul,
-li ol {
+.yue li ul,
+.yue li ol {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 14px;
 }
-li ul {
+.yue li ul {
   list-style-type: disc;
 }
-li ul ul {
+.yue li ul ul {
   list-style-type: circle;
 }
-li p {
+.yue li p {
   margin: 0.4em 0 0.6em;
 }
-.unstyled {
+.yue .unstyled {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-code,
-tt {
+.yue code,
+.yue tt {
   color: #808080;
   font-size: 0.96em;
   background-color: #f9f9f7;
@@ -129,7 +129,7 @@ tt {
   border-radius: 3px;
   font-family: "Inconsolata", "Menlo", monospace;
 }
-pre {
+.yue pre {
   padding: 7px;
   border: 1px solid #dadada;
   -webkit-border-radius: 4px;
@@ -141,28 +141,28 @@ pre {
   color: #4c4c4c;
   background-color: #f9f9f7;
 }
-pre code,
-pre tt {
+.yue pre code,
+.yue pre tt {
   color: #4c4c4c;
   border: none;
   background-color: none;
   padding: auto;
 }
-table {
+.yue table {
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 1.5em;
   font-size: 0.96em;
 }
-th,
-td {
+.yue th,
+.yue td {
   text-align: left;
   padding: 4px 8px 4px 10px;
   border: 1px solid #dadada;
 }
-td {
+.yue td {
   vertical-align: top;
 }
-tr:nth-child(even) {
+.yue tr:nth-child(even) {
   background-color: #efefee;
 }
