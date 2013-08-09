@@ -1,76 +1,76 @@
-.yue {
+body {
   font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
   color: #333332;
 }
-.yue ::selection {
+::selection {
   background-color: rgba(0,0,0,0.2);
 }
-.yue h1,
-.yue h2,
-.yue h3,
-.yue h4,
-.yue h5,
-.yue h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #222223;
 }
-.yue h1 {
+h1 {
   font-size: 1.8em;
   margin: 0.67em 0;
 }
-.yue > h1 {
+> h1 {
   margin-top: 0;
   font-size: 2em;
 }
-.yue h2 {
+h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
-.yue h3 {
+h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
-.yue h4,
-.yue h5,
-.yue h6 {
+h4,
+h5,
+h6 {
   font-size: 1em;
   margin: 1.6em 0 1em 0;
 }
-.yue h6 {
+h6 {
   font-weight: 500;
 }
-.yue p {
+p {
   margin-top: 0;
   margin-bottom: 1.64em;
 }
-.yue a {
+a {
   color: #111;
   word-wrap: break-word;
 }
-.yue a:hover {
+a:hover {
   color: #555;
 }
-.yue a.image {
+a.image {
   border-bottom: none;
 }
-.yue strong,
-.yue b {
+strong,
+b {
   font-weight: 700;
   color: #222;
 }
-.yue em,
-.yue i {
+em,
+i {
   font-style: italic;
   color: #222;
 }
-.yue img {
+img {
   max-width: 98%;
   margin: 0.2em 0;
 }
-.yue hr {
+hr {
   border: 0 none;
   margin-bottom: 1em;
 }
-.yue hr:after {
+hr:after {
   color: #9f9f95;
   font-size: 1.1em;
   display: block;
@@ -78,48 +78,48 @@
   text-align: center;
   letter-spacing: 0.6em;
 }
-.yue blockquote {
+blockquote {
   padding-left: 20px;
   border-left: 4px solid #dadada;
   margin: 0 0 1.64em -24px;
   color: #666664;
 }
-.yue ul,
-.yue ol {
+ul,
+ol {
   margin: 0 0 24px 6px;
   padding-left: 16px;
 }
-.yue ul {
+ul {
   list-style-type: square;
 }
-.yue ol {
+ol {
   list-style-type: decimal;
 }
-.yue li {
+li {
   margin-bottom: 0.2em;
 }
-.yue li ul,
-.yue li ol {
+li ul,
+li ol {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 14px;
 }
-.yue li ul {
+li ul {
   list-style-type: disc;
 }
-.yue li ul ul {
+li ul ul {
   list-style-type: circle;
 }
-.yue li p {
+li p {
   margin: 0.4em 0 0.6em;
 }
-.yue .unstyled {
+.unstyled {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.yue code,
-.yue tt {
+code,
+tt {
   color: #808080;
   font-size: 0.96em;
   background-color: #f9f9f7;
@@ -129,7 +129,7 @@
   border-radius: 3px;
   font-family: "Inconsolata", "Menlo", monospace;
 }
-.yue pre {
+pre {
   padding: 7px;
   border: 1px solid #dadada;
   -webkit-border-radius: 4px;
@@ -141,28 +141,28 @@
   color: #4c4c4c;
   background-color: #f9f9f7;
 }
-.yue pre code,
-.yue pre tt {
+pre code,
+pre tt {
   color: #4c4c4c;
   border: none;
   background-color: none;
   padding: auto;
 }
-.yue table {
+table {
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 1.5em;
   font-size: 0.96em;
 }
-.yue th,
-.yue td {
+th,
+td {
   text-align: left;
   padding: 4px 8px 4px 10px;
   border: 1px solid #dadada;
 }
-.yue td {
+td {
   vertical-align: top;
 }
-.yue tr:nth-child(even) {
+tr:nth-child(even) {
   background-color: #efefee;
 }
