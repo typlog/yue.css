@@ -69,6 +69,7 @@
 }
 .yue img {
   max-width: 98%;
+  height: auto;
   margin: 0.2em 0;
 }
 .yue hr {
