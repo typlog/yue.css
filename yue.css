@@ -6,8 +6,10 @@
  * Copyright (c) 2013 by Hsiaoming Yang.
  */
 
+
+
 .yue {
-  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
+  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
   color: #333332;
 }
 .yue ::selection {
@@ -19,6 +21,7 @@
 .yue h4,
 .yue h5,
 .yue h6 {
+  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
   color: #222223;
 }
 .yue h1 {
