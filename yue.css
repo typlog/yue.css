@@ -94,6 +94,13 @@
   margin: 0 0 1.64em -24px;
   color: #666664;
 }
+@media (max-width: 500px) {
+  .yue blockquote {
+    margin-left: 0;
+    border-width: 3px;
+    padding-left: 12px;
+  }
+}
 .yue ul,
 .yue ol {
   margin: 0 0 24px 6px;
