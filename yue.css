@@ -70,6 +70,11 @@
   font-style: italic;
   color: #222;
 }
+:lang(zh) .yue em,
+:lang(zh) .yue i {
+  font-style: normal;
+  font-family: "KaiTi", "STKaiti", "SimKai", serif;
+}
 .yue img {
   display: block;
   max-width: 100%;
