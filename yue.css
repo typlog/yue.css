@@ -73,7 +73,7 @@
 :lang(zh) .yue em,
 :lang(zh) .yue i {
   font-style: normal;
-  font-family: "KaiTi", "STKaiti", "SimKai", serif;
+  font-family: "Georgia", "KaiTi", "STKaiti", "SimKai", serif;
 }
 .yue img {
   display: block;
