@@ -76,6 +76,32 @@
   height: auto;
   margin: 0.2em 0;
 }
+.yue figure {
+  position: relative;
+  margin-bottom: 30px;
+  clear: both;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+.yue figure img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.yue figure figcaption {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666665;
+}
 .yue hr {
   border: 0 none;
   margin-bottom: 1em;
@@ -89,17 +115,10 @@
   letter-spacing: 0.6em;
 }
 .yue blockquote {
-  padding-left: 20px;
-  border-left: 4px solid #dadada;
-  margin: 0 0 1.64em -24px;
+  margin: 0 0 1.64em 0;
+  border-left: 3px solid #dadada;
+  padding-left: 12px;
   color: #666664;
-}
-@media (max-width: 500px) {
-  .yue blockquote {
-    margin-left: 0;
-    border-width: 3px;
-    padding-left: 12px;
-  }
 }
 .yue ul,
 .yue ol {
@@ -180,4 +199,27 @@
 }
 .yue tr:nth-child(even) {
   background-color: #efefee;
+}
+@media (min-width: 1100px) {
+  .yue blockquote {
+    margin-left: -24px;
+    padding-left: 20px;
+    border-width: 4px;
+  }
+  .yue figure figcaption:before {
+    width: 25%;
+    margin-left: 75%;
+    border-top: 1px solid #dededc;
+    display: block;
+    content: "";
+    margin-bottom: 10px;
+  }
+  .yue figure figcaption {
+    position: absolute;
+    left: -172px;
+    width: 150px;
+    top: 0;
+    text-align: right;
+    margin-top: 0;
+  }
 }
