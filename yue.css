@@ -212,6 +212,9 @@
     padding-left: 20px;
     border-width: 4px;
   }
+  .yue blockquote blockquote {
+    margin-left: 0;
+  }
   .yue figure figcaption:before {
     width: 25%;
     margin-left: 75%;
