@@ -201,6 +201,9 @@
 .yue iframe {
   display: block;
   max-width: 100%;
+  margin-bottom: 30px;
+}
+.yue figure iframe {
   margin: auto;
 }
 @media (min-width: 1100px) {
