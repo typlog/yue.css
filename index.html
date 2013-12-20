@@ -30,105 +30,139 @@
     </script>
   </head>
   <body>
-    <div class="yue">
-      <h1>HTML Ipsum Presents</h1>
+<div class="yue">
+<h1>yue.css</h1>
+<p><strong>yue.css</strong> is a typography stylesheet for readable content. It was
+created for my blog at first since I always designed a new theme for my
+blog. But later it becomes the offical stylesheet for yuehu site.</p><blockquote><p><strong>yue.css</strong> is not a reset stylesheet.</p></blockquote><p>It is designed for article content, and only article content. If you are
+looking for a reset css, you are watching the wrong repository.</p>
+<h2>Installation</h2>
+<p>Install with <a href="http://component.io">component(1)</a>:</p>
+<pre><code>$ component install lepture/yue.css
+</code></pre>
+<p>However, if you don&#39;t fancy component, you can just grab the css file
+from GitHub. There is no dependency of <a href="https://github.com/lepture/yue.css">this project</a>.</p>
+<h2>API</h2>
+<p>For readable content, wrapper them under the <code>.yue</code> class, and everything
+would be ok now:</p>
+<pre><code class="css">&lt;div class=&quot;yue&quot;&gt;
+    &lt;h1&gt;Heading&lt;/h1&gt;
+    &lt;p&gt;Paragraph of contents...&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
 
-      <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-      <p><a href="http://www.douban.com/photos/photo/1487563850/"><img src="https://github-camo.global.ssl.fastly.net/4828f1a080d88c40be73f558e5951689b105b4f3/687474703a2f2f696d67332e646f7562616e2e636f6d2f766965772f70686f746f2f70686f746f2f7075626c69632f70313438373536333835302e6a7067" alt="image" /></a></p>
-      <h2>Header Level 2</h2>
+<h2>Tags</h2>
+<p><strong>yue.css</strong> only supports selected tags which are commonly used in an
+article.</p>
+<table><thead>
+<tr>
+<th>Tag Name</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>h1 - h6</td>
+<td>headings for title</td>
+</tr>
+<tr>
+<td>p</td>
+<td>paragraph</td>
+</tr>
+<tr>
+<td>a</td>
+<td>anchor links</td>
+</tr>
+<tr>
+<td>strong b</td>
+<td>emphasis in bold style</td>
+</tr>
+<tr>
+<td>em i</td>
+<td>emphasis in italic style</td>
+</tr>
+<tr>
+<td>img</td>
+<td>image</td>
+</tr>
+<tr>
+<td>figure</td>
+<td>figure wrapper for images</td>
+</tr>
+<tr>
+<td>figcaption</td>
+<td>figcaption in figure</td>
+</tr>
+<tr>
+<td>hr</td>
+<td>separator</td>
+</tr>
+<tr>
+<td>blockquote</td>
+<td>style for quotes</td>
+</tr>
+<tr>
+<td>ul ol li</td>
+<td>ordered and unordered list</td>
+</tr>
+<tr>
+<td>pre</td>
+<td>code block</td>
+</tr>
+<tr>
+<td>code tt</td>
+<td>inline code</td>
+</tr>
+<tr>
+<td>table ..</td>
+<td>tables (not well designed)</td>
+</tr>
+<tr>
+<td>iframe</td>
+<td>embed iframe style</td>
+</tr>
+</tbody></table>
 
-      <ol>
-        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-        <li>Aliquam tincidunt mauris eu risus.</li>
-      </ol>
+<h3>Headings</h3>
+<p>Headings are tags <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code> and <code>&lt;h6&gt;</code>.
+But the most commonly used tags are <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, and <code>&lt;h3&gt;</code>.</p>
+<h3>Emphasis</h3>
+<p>Emphasis works on something <strong>important</strong> or <em>valuable</em>. <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code>
+are deprecated, you should always use <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code>.</p>
+<h3>Links &amp; Images</h3>
+<p>Links are the soul of internet. <a href="https://github.com/lepture/yue.css">Fork it on GitHub</a>.</p><p><a href="http://www.douban.com/photos/photo/1487563850/"><img src="https://github-camo.global.ssl.fastly.net/4828f1a080d88c40be73f558e5951689b105b4f3/687474703a2f2f696d67332e646f7562616e2e636f6d2f766965772f70686f746f2f70686f746f2f7075626c69632f70313438373536333835302e6a7067" alt="art of human body" /></a></p><p>Images can be wrappered in a <code>&lt;figure&gt;</code> tag:</p><figure><img src="https://github-camo.global.ssl.fastly.net/9dd35e35cced3d2be53bfe42b5b250a0d17e47b9/687474703a2f2f696d67332e646f7562616e2e636f6d2f766965772f70686f746f2f70686f746f2f7075626c69632f70313438373536333931312e6a7067" alt="human body" /><figcaption>The Art of Human Body</figcaption></figure>
+<h3>List</h3>
+<p>There is ordered list <code>&lt;ol&gt;</code> and unordered list <code>&lt;ul&gt;</code>.</p>
+<ul>
+<li>Unordered list is tagged in <code>&lt;ul&gt;</code></li>
+<li>Another item of unordered list
 
-      <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+<ol>
+<li>An ordered list in un ordered list</li>
+<li>Another ordered item</li>
+</ol></li>
+<li>Unordered list can has unordered list children
 
-      <h3>Header Level 3</h3>
+<ul>
+<li>Item of the children</li>
+<li>Another item of the children</li>
+</ul></li>
+</ul>
 
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-        <li>Aliquam tincidunt mauris eu risus.</li>
-      </ul>
+<hr>
 
-      <pre><code>#header h1 a { 
-  display: block; 
-  width: 300px; 
-  height: 80px; 
-}</code></pre>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-      <ul>
-        <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-        <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-        <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-        <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
-      </ul>
+<ol>
+<li>Ordered list is tagged in <code>&lt;ol&gt;</code></li>
+<li>Each item is tagged in <code>&lt;li&gt;</code></li>
+</ol>
 
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Gender</th>
-            <th>State</th>
-            <th>Country</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>James</td>
-            <td>Male</td>
-            <td>Kitty</td>
-            <td>Janpan</td>
-          </tr>
-          <tr>
-            <td>Harry Porter</td>
-            <td>Male</td>
-            <td>Infinity</td>
-            <td>Wisdom</td>
-          </tr>
-          <tr>
-            <td>Nobel</td>
-            <td>Female</td>
-            <td>Heaven</td>
-            <td>Pellentesque</td>
-          </tr>
-        </tbody>
-      </table>
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-      <hr />
+<hr>
 
-      <h5>Header Level 5</h5>
-
-      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-      <figure>
-        <a href="http://www.douban.com/photos/photo/1487574120/"><img src="https://github-camo.global.ssl.fastly.net/9dd35e35cced3d2be53bfe42b5b250a0d17e47b9/687474703a2f2f696d67332e646f7562616e2e636f6d2f766965772f70686f746f2f70686f746f2f7075626c69632f70313438373536333931312e6a7067" alt="image" /></a>
-        <figcaption>The Art of Human Body</figcaption>
-      </figure>
-
-      <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
-
-      <h4>Header Level 4</h4>
-
-      <ul>
-        <li>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        <ol>
-          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-          <li>Aliquam tincidunt mauris eu risus.</li>
-          <li>Vestibulum auctor dapibus neque.</li>
-        </ol>
-        </li>
-        <li>
-        <h6>Header Level 6</h6>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-          <li>Aliquam tincidunt mauris eu risus.</li>
-          <li>Vestibulum auctor dapibus neque.</li>
-        </ul>
-        </li>
-      </ul>
-    </div>
-  </body>
+<h2>Note</h2>
+<p>yue.css has no target language, however it looks great in both English
+and Chinese.</p><blockquote><p>yue.css 并不是为某一特定语言设计的，但是它确实在英文和中文上表现出色。</p></blockquote>
+<h2>License</h2>
+<p>MIT for personal websites only. Commercial websites should contact me
+for more information.</p>
+</div>
+</body>
 </html>
