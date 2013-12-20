@@ -163,6 +163,7 @@
   font-family: "Inconsolata", "Menlo", monospace;
 }
 .yue pre {
+  margin: 0 0 1.64em 0;
   padding: 7px;
   border: 1px solid #dadada;
   border-radius: 4px;
