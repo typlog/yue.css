@@ -10,7 +10,7 @@
 
 .yue {
   font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
-  color: #333332;
+  color: #444443;
 }
 .yue ::selection {
   background-color: rgba(0,0,0,0.2);
@@ -71,7 +71,6 @@
   color: #222;
 }
 .yue img {
-  display: block;
   max-width: 100%;
   height: auto;
   margin: 0.2em 0;
