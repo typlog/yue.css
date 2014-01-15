@@ -75,6 +75,10 @@
   height: auto;
   margin: 0.2em 0;
 }
+.yue a img {
+  /* Remove border on IE */
+  border: none;
+}
 .yue figure {
   position: relative;
   clear: both;
