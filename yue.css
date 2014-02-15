@@ -121,6 +121,9 @@
   padding-left: 12px;
   color: #666664;
 }
+.yue blockquote a {
+  color: #666664;
+}
 .yue ul,
 .yue ol {
   margin: 0 0 24px 6px;
