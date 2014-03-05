@@ -3,7 +3,7 @@
  *
  * yue.css is designed for readable content.
  *
- * Copyright (c) 2013 by Hsiaoming Yang.
+ * Copyright (c) 2013 - 2014 by Hsiaoming Yang.
  */
 
 
@@ -220,10 +220,6 @@
   padding: 0;
   border: none;
   background: none;
-}
-.yue .highlight td:first-of-type pre {
-  text-align: right;
-  color: #aaa;
 }
 @media (min-width: 1100px) {
   .yue blockquote {
