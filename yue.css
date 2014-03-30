@@ -12,6 +12,9 @@
   font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
   color: #444443;
 }
+.yue ::-moz-selection {
+  background-color: rgba(0,0,0,0.2);
+}
 .yue ::selection {
   background-color: rgba(0,0,0,0.2);
 }
@@ -56,9 +59,13 @@
 .yue a {
   color: #111;
   word-wrap: break-word;
+  -moz-text-decoration-color: rgba(0, 0, 0, 0.4);
+  text-decoration-color: rgba(0, 0, 0, 0.4);
 }
 .yue a:hover {
   color: #555;
+  -moz-text-decoration-color: rgba(0, 0, 0, 0.6);
+  text-decoration-color: rgba(0, 0, 0, 0.6);
 }
 .yue strong,
 .yue b {
