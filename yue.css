@@ -101,6 +101,7 @@
 .yue figure img {
   display: block;
   max-width: 100%;
+  margin: auto auto 4px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -242,7 +243,7 @@
     margin-left: 0;
   }
   .yue figure img {
-    margin: auto auto 4px;
+    margin: 0 0 4px;
   }
   .yue figure figcaption:before {
     width: 25%;
