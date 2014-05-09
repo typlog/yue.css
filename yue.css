@@ -14,7 +14,7 @@
 }
 .windows .yue {
   font-size: 16px;
-  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "SimSun", sans-serif;
+  font-family: "Georgia", "SimSun", sans-serif;
 }
 .yue ::-moz-selection {
   background-color: rgba(0,0,0,0.2);
