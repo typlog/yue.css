@@ -9,7 +9,7 @@
 
 
 .yue {
-  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "STXihei", "Microsoft YaHei", sans-serif;
   color: #444443;
 }
 .windows .yue {
@@ -28,7 +28,7 @@
 .yue h4,
 .yue h5,
 .yue h6 {
-  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "STXihei", "Microsoft YaHei", "SimSun", sans-serif;
   color: #222223;
 }
 .yue h1 {
@@ -178,7 +178,7 @@
   padding: 1px 2px;
   border: 1px solid #dadada;
   border-radius: 3px;
-  font-family: "Inconsolata", "Menlo", monospace;
+  font-family: "Inconsolata", "Menlo", "Consolas", "Source Code Pro", "Source Sans Pro",  monospace;
 }
 .yue pre {
   margin: 1.64em 0;
