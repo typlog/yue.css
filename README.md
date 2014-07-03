@@ -62,7 +62,7 @@ But the most commonly used tags are `<h1>`, `<h2>`, and `<h3>`.
 ### Emphasis
 
 Emphasis works on something **important** or *valuable*. `<b>` and `<i>`
-are deprecated, you should always use `<strong>` and `<em>`.
+are not designed for this purpose, you should always use `<strong>` and `<em>`.
 
 ### Links & Images
 
