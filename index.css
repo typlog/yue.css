@@ -8,12 +8,15 @@
 
 :root {
   --base-font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+  --code-font-family: Menlo, Monaco, Consolas, "Courier New";
   --base-color: #444443;
   --emphasis-color: #222223;
   --link-color: #111;
   --link-hover-color: #555;
   --figure-color: #666665;
   --blockquote-color: #666664;
+  --code-color: #808080;
+  --pre-code-color: #4c4c4c;
 }
 
 .yue {
@@ -173,13 +176,13 @@
 }
 .yue code,
 .yue tt {
-  color: #808080;
+  color: var(--code-color);
   font-size: 0.96em;
   background-color: #f9f9f7;
   padding: 1px 2px;
   border: 1px solid #dadada;
   border-radius: 3px;
-  font-family: "Inconsolata", "Menlo", monospace;
+  font-family: var(--code-font-family), monospace;
 }
 .yue pre {
   margin: 1.64em 0;
@@ -190,13 +193,13 @@
   overflow: auto;
   line-height: 1.5;
   font-size: 0.96em;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  color: #4c4c4c;
+  font-family: var(--code-font-family), monospace;
+  color: var(--pre-code-color);
   background-color: #f9f9f7;
 }
 .yue pre code,
 .yue pre tt {
-  color: #4c4c4c;
+  color: var(--pre-code-color);
   border: none;
   background: none;
   padding: 0;
