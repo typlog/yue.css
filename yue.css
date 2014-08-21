@@ -6,8 +6,6 @@
  * Copyright (c) 2013 - 2014 by Hsiaoming Yang.
  */
 
-
-
 .yue {
   font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
   color: #444443;
@@ -75,11 +73,13 @@
 .yue a {
   color: #111;
   word-wrap: break-word;
+  -moz-text-decoration-color: rgba(0, 0, 0, 0.4);
   text-decoration-color: rgba(0, 0, 0, 0.4);
 }
 
 .yue a:hover {
   color: #555;
+  -moz-text-decoration-color: rgba(0, 0, 0, 0.6);
   text-decoration-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -119,7 +119,6 @@
   display: block;
   max-width: 100%;
   margin: auto auto 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }

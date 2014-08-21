@@ -4,4 +4,6 @@ build:
 	@echo '' >> yue.css
 
 watch:
-	@rewatch -c "make build"
+	@rewatch index.css -c "make build"
+
+.PHONY: watch build
