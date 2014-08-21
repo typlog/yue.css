@@ -7,6 +7,8 @@
  */
 
 :root {
+  --base-font-weight: 400;
+  --base-font-size: 18px/1.62;
   --base-font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
   --code-font-family: Menlo, Monaco, Consolas, "Courier New";
   --base-color: #444443;
@@ -20,7 +22,7 @@
 }
 
 .yue {
-  font: 400 18px/1.62 var(--base-font-family), sans-serif;
+  font: var(--base-font-weight) var(--base-font-size) var(--base-font-family), sans-serif;
   color: var(--base-color);
 }
 .windows .yue {
