@@ -185,6 +185,7 @@
   border: 1px solid #dadada;
   border-radius: 3px;
   font-family: var(--code-font-family), monospace;
+  word-wrap: break-word;
 }
 .yue pre {
   margin: 1.64em 0;
@@ -208,10 +209,12 @@
 }
 .yue table {
   width: 100%;
+  max-width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 1.5em;
   font-size: 0.96em;
+  box-sizing: border-box;
 }
 .yue th,
 .yue td {
