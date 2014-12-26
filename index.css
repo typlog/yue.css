@@ -79,6 +79,9 @@
   color: var(--link-hover-color);
   text-decoration-color: rgba(0, 0, 0, 0.6);
 }
+.yue h1 a, .yue h2 a, .yue h3 a {
+  text-decoration: none;
+}
 .yue strong,
 .yue b {
   font-weight: 700;
