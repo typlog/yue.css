@@ -68,11 +68,11 @@ are not designed for this purpose, you should always use `<strong>` and `<em>`.
 
 Links are the soul of internet. [Fork it on GitHub](https://github.com/lepture/yue.css).
 
-[![art of human body](https://github-camo.global.ssl.fastly.net/4828f1a080d88c40be73f558e5951689b105b4f3/687474703a2f2f696d67332e646f7562616e2e636f6d2f766965772f70686f746f2f70686f746f2f7075626c69632f70313438373536333835302e6a7067)](http://www.douban.com/photos/photo/1487563850/)
+![art of human body](http://lab.lepture.com/gaussian-blur/art.jpg)
 
 Images can be wrappered in a `<figure>` tag:
 
-![human body](https://github-camo.global.ssl.fastly.net/9dd35e35cced3d2be53bfe42b5b250a0d17e47b9/687474703a2f2f696d67332e646f7562616e2e636f6d2f766965772f70686f746f2f70686f746f2f7075626c69632f70313438373536333931312e6a7067 "The Art of Human Body")
+![art of human body](http://lab.lepture.com/gaussian-blur/art.jpg "The Art of Human Body")
 
 ### List
 
