@@ -254,23 +254,4 @@
   .yue blockquote blockquote {
     margin-left: 0;
   }
-  .yue figure img {
-    margin: 0 0 4px;
-  }
-  .yue figure figcaption:before {
-    width: 25%;
-    margin-left: 75%;
-    border-top: 1px solid #dededc;
-    display: block;
-    content: "";
-    margin-bottom: 10px;
-  }
-  .yue figure figcaption {
-    position: absolute;
-    left: -172px;
-    width: 150px;
-    top: 0;
-    text-align: right;
-    margin-top: 0;
-  }
 }
