@@ -11,11 +11,11 @@ looking for a reset css, you are watching the wrong repository.
 
 ## Installation
 
-Install with [component(1)](http://component.io):
+Install with npm:
 
-    $ component install lepture/yue.css
+    $ npm install yue.css
 
-However, if you don't fancy component, you can just grab the css file
+However, if you don't fancy npm, you can just grab the css file
 from GitHub. There is no dependency of [this project](https://github.com/lepture/yue.css).
 
 ## API
@@ -102,5 +102,4 @@ and Chinese.
 
 ## License
 
-MIT for personal websites only. Commercial websites should contact me
-for more information.
+MIT.

@@ -3,13 +3,16 @@
  *
  * yue.css is designed for readable content.
  *
- * Copyright (c) 2013 - 2014 by Hsiaoming Yang.
+ * Copyright (c) 2013 - 2017 by Hsiaoming Yang.
  */
 
 :root {
   --base-font-weight: 400;
   --base-font-size: 18px/1.62;
-  --base-font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+  --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
+
+  --base-font-family: var(--sys-font-family), var(--zh-font-family);
   --code-font-family: Menlo, Monaco, Consolas, "Courier New";
   --base-color: #444443;
   --emphasis-color: #222223;
@@ -25,10 +28,7 @@
   font: var(--base-font-weight) var(--base-font-size) var(--base-font-family), sans-serif;
   color: var(--base-color);
 }
-.windows .yue {
-  font-size: 16px;
-  font-family: "Georgia", "SimSun", sans-serif;
-}
+
 .yue ::selection {
   background-color: rgba(0,0,0,0.2);
 }
@@ -38,7 +38,7 @@
 .yue h4,
 .yue h5,
 .yue h6 {
-  font-family: var(--base-font-family), "SimSun", sans-serif;
+  font-family: var(--base-font-family), sans-serif;
   color: var(--emphasis-color);
 }
 .yue h1 {
