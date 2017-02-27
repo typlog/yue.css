@@ -5,5 +5,13 @@
   "author": "Hsiaoming Yang <me@lepture.com>",
   "license": "MIT",
   "homepage": "https://github.com/lepture/yue.css",
-  "repository": "lepture/yue.css"
+  "repository": "lepture/yue.css",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.5",
+    "postcss": "^5.2.15",
+    "postcss-custom-properties": "^5.0.2"
+  }
 }
