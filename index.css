@@ -9,7 +9,7 @@
 :root {
   --base-font-weight: 400;
   --base-font-size: 18px/1.62;
-  --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
   --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
 
   --base-font-family: var(--sys-font-family), var(--zh-font-family);
@@ -68,7 +68,7 @@
 }
 .yue p {
   margin-top: 0;
-  margin-bottom: 1.46em;
+  margin-bottom: 1.24em;
 }
 .yue a {
   color: var(--link-color);
@@ -185,7 +185,7 @@
   font-size: 0.96em;
   background-color: #f9f9f7;
   padding: 1px 2px;
-  border: 1px solid #dadada;
+  border: 1px solid #eee;
   border-radius: 3px;
   font-family: var(--code-font-family), monospace;
   word-wrap: break-word;
