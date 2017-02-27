@@ -1,0 +1,168 @@
+{
+  font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", "SimSun", sans-serif;
+  color: #333332;
+}
+::selection {
+  background-color: rgba(0,0,0,0.2);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222223;
+}
+h1 {
+  font-size: 1.8em;
+  margin: 0.67em 0;
+}
+> h1 {
+  margin-top: 0;
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4,
+h5,
+h6 {
+  font-size: 1em;
+  margin: 1.6em 0 1em 0;
+}
+h6 {
+  font-weight: 500;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1.64em;
+}
+a {
+  color: #111;
+  word-wrap: break-word;
+}
+a:hover {
+  color: #555;
+}
+a.image {
+  border-bottom: none;
+}
+strong,
+b {
+  font-weight: 700;
+  color: #222;
+}
+em,
+i {
+  font-style: italic;
+  color: #222;
+}
+img {
+  max-width: 98%;
+  margin: 0.2em 0;
+}
+hr {
+  border: 0 none;
+  margin-bottom: 1em;
+}
+hr:after {
+  color: #9f9f95;
+  font-size: 1.1em;
+  display: block;
+  content: "* * *";
+  text-align: center;
+  letter-spacing: 0.6em;
+}
+blockquote {
+  padding-left: 20px;
+  border-left: 4px solid #dadada;
+  margin: 0 0 1.64em -24px;
+  color: #666664;
+}
+ul,
+ol {
+  margin: 0 0 24px 6px;
+  padding-left: 16px;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: decimal;
+}
+li {
+  margin-bottom: 0.2em;
+}
+li ul,
+li ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 14px;
+}
+li ul {
+  list-style-type: disc;
+}
+li ul ul {
+  list-style-type: circle;
+}
+li p {
+  margin: 0.4em 0 0.6em;
+}
+.unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+code,
+tt {
+  color: #808080;
+  font-size: 0.96em;
+  background-color: #f9f9f7;
+  padding: 1px 2px;
+  border: 1px solid #dadada;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-family: "Inconsolata", "Menlo", monospace;
+}
+pre {
+  padding: 7px;
+  border: 1px solid #dadada;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  overflow: auto;
+  line-height: 1.5;
+  font-size: 0.96em;
+  font-family: "Inconsolata", "Menlo", monospace;
+  color: #4c4c4c;
+  background-color: #f9f9f7;
+}
+pre code,
+pre tt {
+  color: #4c4c4c;
+  border: none;
+  background-color: none;
+  padding: auto;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5em;
+  font-size: 0.96em;
+}
+th,
+td {
+  text-align: left;
+  padding: 4px 8px 4px 10px;
+  border: 1px solid #dadada;
+}
+td {
+  vertical-align: top;
+}
+tr:nth-child(even) {
+  background-color: #efefee;
+}
