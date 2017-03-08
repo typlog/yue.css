@@ -23,7 +23,7 @@ from GitHub. There is no dependency of [this project](https://github.com/lepture
 For readable content, wrapper them under the `.yue` class, and everything
 would be ok now:
 
-```css
+```html
 <div class="yue">
     <h1>Heading</h1>
     <p>Paragraph of contents...</p>
