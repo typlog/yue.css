@@ -255,3 +255,9 @@
     margin-left: 0;
   }
 }
+
+[lang^="zh"] .yue p,
+[lang^="ja"] .yue p {
+  text-align: justify;
+  text-justify: inter-ideographic;
+}
