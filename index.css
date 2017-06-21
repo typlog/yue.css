@@ -29,6 +29,10 @@
   color: var(--base-color);
 }
 
+.windows .yue {
+  font-size: 16px;
+}
+
 .yue ::selection {
   background-color: rgba(0,0,0,0.2);
 }
