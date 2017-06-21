@@ -11,6 +11,7 @@
   color: #444443;
 }
 
+/* Microsoft YaHei looks terrible when > 16px */
 .windows .yue {
   font-size: 16px;
 }
