@@ -11,7 +11,6 @@
   color: #444443;
 }
 
-/* Microsoft YaHei looks terrible when > 16px */
 .windows .yue {
   font-size: 16px;
 }
@@ -253,4 +252,14 @@
 [lang^="ja"] .yue p {
   text-align: justify;
   text-justify: inter-ideographic;
+}
+
+[lang^="zh"] .yue em,
+[lang^="ja"] .yue em {
+  font-style: normal;
+  font-family: Baskerville,Georgia,Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW\\-Kai,serif;
+  -webkit-text-emphasis: dot #555;
+          text-emphasis: dot #555;
+  -webkit-text-emphasis-position: under;
+          text-emphasis-position: under;
 }
