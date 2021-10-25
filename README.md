@@ -20,7 +20,7 @@ from GitHub. There is no dependency of [this project](https://github.com/lepture
 
 ## API
 
-For readable content, wrapper them under the `.yue` class, and everything
+For readable content, wrap them under the `.yue` class, and everything
 would be ok now:
 
 ```html
@@ -66,11 +66,11 @@ are not designed for this purpose, you should always use `<strong>` and `<em>`.
 
 ### Links & Images
 
-Links are the soul of internet. [Fork it on GitHub](https://github.com/lepture/yue.css).
+Links are the soul of the internet. [Fork it on GitHub](https://github.com/lepture/yue.css).
 
 ![art of human body](https://c1.staticflickr.com/1/359/31586852133_c875d658ee_h.jpg)
 
-Images can be wrappered in a `<figure>` tag:
+Images can be wrapped in a `<figure>` tag:
 
 ![art of human body](https://c1.staticflickr.com/1/359/31586852133_c875d658ee_h.jpg "The Art of Human Body")
 
