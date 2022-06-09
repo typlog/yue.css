@@ -1,0 +1,203 @@
+.yue {
+  font-family: var(--yue-f-base);
+}
+.yue h1,
+.yue h2,
+.yue h3,
+.yue h4,
+.yue h5,
+.yue h6 {
+  font-family: var(--yue-f-heading);
+  color: var(--yue-c-strong);
+}
+
+.yue h1 {
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 0 0 3em;
+}
+
+.yue h2 {
+  font-weight: 700;
+  font-size: 1.42em;
+  margin: 3.2em 0 1.4em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--yue-c-divider);
+}
+
+.yue h3 {
+  font-size: 1.17em;
+  margin-top: 1.62em;
+  margin-bottom: 1em;
+}
+
+.yue h4,
+.yue h5,
+.yue h6 {
+  font-size: 1em;
+  margin-top: 1.4em;
+  margin-bottom: 0.8em;
+}
+
+.yue h6 {
+  font-weight: 500;
+}
+
+.yue p {
+  margin-top: 0;
+  margin-bottom: 1.12em;
+  hyphens: auto;
+}
+
+.yue h1 a, .yue h2 a, .yue h3 a {
+  text-decoration: none;
+}
+
+.yue strong,
+.yue b {
+  font-weight: 700;
+  color: var(--yue-c-strong);
+}
+
+.yue em,
+.yue i {
+  font-style: italic;
+  color: var(--yue-c-strong);
+}
+
+.yue a img {
+  border: none;
+  vertical-align: middle;
+}
+
+.yue a {
+  color: var(--yue-c-accent);
+  text-decoration: none;
+}
+
+.yue a:hover {
+  text-decoration: underline;
+}
+
+.yue figure {
+  margin: 0;
+}
+.yue figcaption {
+  margin-top: 4px;
+  font-size: 13px;
+  text-align: center;
+  color: var(--yue-c-light);
+}
+.yue figcaption a {
+  color: var(--yue-c-light);
+}
+.yue figcaption a:hover {
+  color: var(--yue-c-accent);
+}
+
+.yue hr {
+  display: block;
+  width: 90%;
+  max-width: 100px;
+  border: 0;
+  border-top: 5px solid var(--yue-c-divider);
+  margin: 2.4em auto;
+}
+
+.yue blockquote {
+  position: relative;
+  margin: 0 0 1.64em 0;
+  padding: 34px 1em 0.1em 20px;
+  font-size: 1.12em;
+  font-family: var(--yue-f-quote);
+  border-left: 4px solid var(--yue-c-accent);
+}
+.yue blockquote::before {
+  content: '\201c';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  color: var(--yue-c-accent);
+  font: bold 48px/1 "Droid Serif", serif;
+}
+
+.yue ul,
+.yue ol {
+  margin: 0 0 24px 6px;
+  padding-left: 16px;
+}
+
+.yue li {
+  margin-bottom: 0.2em;
+}
+
+.yue li ul,
+.yue li ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.yue li p {
+  margin: 0.4em 0 0.6em;
+}
+
+.yue li > code,
+.yue p > code,
+.yue p > tt {
+  font-size: 0.86em;
+  font-family: var(--yue-f-code);
+  font-weight: 600;
+  padding: 1px 3px;
+  word-wrap: break-word;
+  border-radius: 2px;
+}
+
+.yue pre {
+  font-family: var(--yue-f-code);
+}
+
+.yue iframe {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.yue figure iframe {
+  margin: auto;
+}
+
+.yue .footnotes {
+  font-size: 80%;
+  line-height: 1.32;
+  opacity: 0.96;
+}
+
+.yue .footnotes:before {
+  content: '';
+  display: block;
+  border-top: 4px solid var(--yue-c-divider);
+  width: 50%;
+  max-width: 100px;
+  margin: 40px 0 20px;
+}
+
+:lang(zh) .yue em,
+:lang(zh-hant) .yue em,
+:lang(zh-hans) .yue em,
+:lang(ja) .yue em {
+  font-style: normal;
+  text-emphasis: filled dot var(--yue-c-light);
+  text-emphasis-position: under;
+}
+.yue em:lang(en) {
+  font-style: italic !important;
+  text-emphasis: none !important;
+}
+
+.yue li.task-item {
+  list-style-type: none;
+}
+.yue .task-item input[type="checkbox"] {
+  margin: 0 0.3em 0.4em -1em;
+  vertical-align: middle;
+}

@@ -1,17 +1,12 @@
 {
-  "name": "yue.css",
+  "name": "@typlog/yue",
   "description": "Readable content stylish.",
   "version": "0.4.0",
   "author": "Hsiaoming Yang <me@lepture.com>",
   "license": "MIT",
-  "homepage": "https://github.com/lepture/yue.css",
-  "repository": "lepture/yue.css",
-  "scripts": {
-    "build": "node build.js"
-  },
+  "homepage": "https://github.com/typlog/yue.css",
+  "scripts": {},
   "devDependencies": {
-    "autoprefixer": "^6.7.5",
-    "postcss": "^5.2.15",
-    "postcss-custom-properties": "^5.0.2"
+    "vite": "^2.9.10"
   }
 }

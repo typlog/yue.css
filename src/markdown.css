@@ -1,0 +1,37 @@
+.block-table {
+  overflow: auto;
+}
+.block-table table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5em;
+  font-size: 0.96em;
+  box-sizing: border-box;
+}
+.block-table th,
+.block-table td {
+  text-align: left;
+  padding: 8px;
+}
+.block-table td {
+  vertical-align: top;
+}
+.block-table tr {
+  border-bottom: 1px solid var(--yue-c-tr);
+}
+.block-table thead tr {
+  border-width: 2px;
+}
+.block-table tbody tr:last-child {
+  border-bottom: 0;
+}
+.block-table thead th:first-child,
+.block-table tbody td:first-child {
+  padding-left: 0;
+}
+.block-table thead th:last-child,
+.block-table tbody td:last-child {
+  padding-right: 0;
+}
