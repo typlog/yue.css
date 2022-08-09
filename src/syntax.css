@@ -1,0 +1,64 @@
+:root,
+.light-theme {
+  --syntax-default: #24292f;
+  --syntax-meta: #d4d4d4;
+  --syntax-comment: #6e7781;
+  --syntax-constant: #0550ae;
+  --syntax-entity: #268bd2;
+  --syntax-property: #8250df;
+  --syntax-definition: #24292f;
+  --syntax-tag: #085;
+  --syntax-builtin: #b58900;
+  --syntax-keyword: #cf222e;
+  --syntax-exception: #e6212e;
+  --syntax-string: #0a3069;
+  --syntax-regexp: #e40;
+  --syntax-variable: #a4480f;
+  --syntax-invalid-illegal-text: #f6f8fa;
+  --syntax-invalid-illegal-bg: #82071e;
+  --syntax-markup-heading: #0550ae;
+  --syntax-markup-italic: #24292f;
+  --syntax-markup-bold: #24292f;
+  --syntax-markup-deleted-text: #82071e;
+  --syntax-markup-deleted-bg: #FFEBE9;
+  --syntax-markup-inserted-text: #116329;
+  --syntax-markup-inserted-bg: #dafbe1;
+  --syntax-markup-changed-text: #953800;
+  --syntax-markup-changed-bg: #ffd8b5;
+  --syntax-markup-ignored-text: #eaeef2;
+  --syntax-markup-ignored-bg: #0550ae;
+  --syntax-meta-diff-range: #8250df;
+  --syntax-attention-bg: #fff8c5;
+}
+.dark-code,
+.dark-theme {
+  --syntax-default: #c9d1d9;
+  --syntax-meta: #6e7781;
+  --syntax-comment: #8b949e;
+  --syntax-constant: #79c0ff;
+  --syntax-entity: #47b0fa;
+  --syntax-property: #d2a8ff;
+  --syntax-definition: #c9d1d9;
+  --syntax-tag: #7ee787;
+  --syntax-builtin: #ffd34c;
+  --syntax-keyword: #ff7b72;
+  --syntax-exception: #da473c;
+  --syntax-string: #a5d6ff;
+  --syntax-regexp: #ef954e;
+  --syntax-variable: #ffa657;
+  --syntax-invalid-illegal-text: #f0f6fc;
+  --syntax-invalid-illegal-bg: #8e1519;
+  --syntax-markup-heading: #1f6feb;
+  --syntax-markup-italic: #c9d1d9;
+  --syntax-markup-bold: #c9d1d9;
+  --syntax-markup-deleted-text: #ffdcd7;
+  --syntax-markup-deleted-bg: #67060c;
+  --syntax-markup-inserted-text: #aff5b4;
+  --syntax-markup-inserted-bg: #033a16;
+  --syntax-markup-changed-text: #ffdfb6;
+  --syntax-markup-changed-bg: #5a1e02;
+  --syntax-markup-ignored-text: #c9d1d9;
+  --syntax-markup-ignored-bg: #1158c7;
+  --syntax-meta-diff-range: #d2a8ff;
+  --syntax-attention-bg: rgba(255, 248, 197, 0.18);
+}

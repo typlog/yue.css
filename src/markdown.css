@@ -35,3 +35,132 @@
 .block-table tbody td:last-child {
   padding-right: 0;
 }
+
+.block-html {
+  margin-bottom: 1.5em;
+  overflow: auto;
+}
+
+.yue .footnotes {
+  font-size: 80%;
+  line-height: 1.32;
+  opacity: 0.96;
+}
+
+.yue .footnotes:before {
+  content: '';
+  display: block;
+  border-top: 4px solid var(--yue-c-divider);
+  width: 50%;
+  max-width: 100px;
+  margin: 40px 0 20px;
+}
+
+.yue li.task-item {
+  list-style-type: none;
+}
+.yue .task-item input[type="checkbox"] {
+  margin: 0 0.3em 0.4em -1em;
+  vertical-align: middle;
+}
+
+.block-code {
+  position: relative;
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+}
+
+.block-code::after {
+  position: absolute;
+  content: attr(data-language);
+  top: 5px;
+  right: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--yue-c-bc);
+  opacity: 0.6;
+}
+
+.block-code .math {
+  overflow: auto;
+}
+
+.block-code > pre,
+.highlight > pre {
+  margin: 0;
+  overflow: auto;
+  color: var(--yue-c-bc);
+  background-color: var(--yue-c-bc-bg);
+}
+.block-code > pre {
+  padding: 1.2em 1.5em;
+}
+.highlight > pre {
+  padding: 1.4em 0 1.3em;
+}
+.highlight > pre > code {
+  display: inline-block;
+  min-width: 100%;
+}
+.highlight > pre .line {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.highlight-table {
+  overflow: hidden;
+}
+table.highlight {
+  margin: 0;
+  border-radius: 0;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: var(--yue-c-bc-bg);
+}
+table.highlight tr {
+  border: 0;
+}
+table.highlight td {
+  padding: 0 8px;
+  border: 0;
+}
+table.highlight td[data-line] {
+  text-align: right;
+  background-color: var(--yue-c-bc-gutter);
+  width: 1px;
+  padding: 0 6px;
+}
+table.highlight td[data-line]:before {
+  content: attr(data-line);
+  opacity: 0.5;
+}
+table.highlight tr:first-of-type td {
+  padding-top: 8px;
+}
+table.highlight tr:last-of-type td {
+  padding-bottom: 14px;
+}
+.highlight-table table.highlight tr {
+  background-color: transparent;
+}
+.code-head {
+  background-color: var(--yue-c-bc-gutter);
+}
+.code-head pre {
+  margin: 0;
+  border: 0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  color: var(--yue-c-bc);
+  opacity: 0.86;
+}
+.code-head + .highlight > pre,
+.code-head + .highlight-table {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.highlight-table pre {
+  margin: 0;
+  overflow: auto;
+}

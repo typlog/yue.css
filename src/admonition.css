@@ -1,0 +1,67 @@
+:root {
+  --admonition-bg-opacity: 0.03;
+  --admonition-head-opacity: 0.08;
+}
+.dark-theme {
+  --admonition-bg-opacity: 0.1;
+  --admonition-head-opacity: 0.3;
+}
+
+.admonition {
+  position: relative;
+  padding: 0 18px 18px;
+  margin: 2em 0;
+  border-left: 4px solid rgb(var(--admonition-color));
+  background-color: rgba(var(--admonition-color), var(--admonition-bg-opacity));
+}
+.admonition:before {
+  position: absolute;
+  content: '#';
+  top: 8px;
+  left: -12px;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: rgb(var(--admonition-color));
+  text-align: center;
+  font: normal bold 14px/20px "Helvetica Neue",Arial,sans-serif;
+}
+.admonition-title {
+  margin: 0 -18px 18px -19px;
+  padding: 6px 18px;
+  font-size: .8em;
+  font-weight: 700;
+  color: rgb(var(--admonition-color));
+  background-color: rgba(var(--admonition-color), var(--admonition-head-opacity));
+}
+.admonition p:last-of-type {
+  margin-bottom: 0;
+}
+.admonition.attention {
+  --admonition-color: 247, 89, 171;
+}
+.admonition.tip,
+.admonition.hint {
+  --admonition-color: 0, 200, 80;
+}
+.admonition.tip:before {
+  content: '?';
+}
+.admonition.danger,
+.admonition.error {
+  --admonition-color: 255, 92, 47;
+}
+.admonition.danger:before,
+.admonition.error:before {
+  content: '!';
+}
+.admonition.note {
+  --admonition-color: 3, 169, 244;
+}
+.admonition.caution {
+  --admonition-color: 247, 186, 42;
+}
+.admonition.important {
+  --admonition-color: 179, 127, 235;
+}

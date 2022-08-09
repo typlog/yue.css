@@ -20,9 +20,8 @@
 .yue h2 {
   font-weight: 700;
   font-size: 1.42em;
-  margin: 3.2em 0 1.4em;
-  padding-top: 1.2em;
-  border-top: 1px solid var(--yue-c-divider);
+  margin-top: 1.42em;
+  margin-bottom: 0.4em;
 }
 
 .yue h3 {
@@ -118,7 +117,7 @@
   top: 0;
   left: 20px;
   color: var(--yue-c-accent);
-  font: bold 48px/1 "Droid Serif", serif;
+  font: bold 48px/1 "Times New Roman", Georgia, Palatino, Times, serif;
 }
 
 .yue ul,
@@ -145,7 +144,7 @@
 .yue p > code,
 .yue p > tt {
   font-size: 0.86em;
-  font-family: var(--yue-f-code);
+  font-family: var(--yue-f-mono);
   font-weight: 600;
   padding: 1px 3px;
   word-wrap: break-word;
@@ -153,7 +152,7 @@
 }
 
 .yue pre {
-  font-family: var(--yue-f-code);
+  font-family: var(--yue-f-mono);
 }
 
 .yue iframe {
@@ -164,21 +163,6 @@
 
 .yue figure iframe {
   margin: auto;
-}
-
-.yue .footnotes {
-  font-size: 80%;
-  line-height: 1.32;
-  opacity: 0.96;
-}
-
-.yue .footnotes:before {
-  content: '';
-  display: block;
-  border-top: 4px solid var(--yue-c-divider);
-  width: 50%;
-  max-width: 100px;
-  margin: 40px 0 20px;
 }
 
 :lang(zh) .yue em,
@@ -192,12 +176,4 @@
 .yue em:lang(en) {
   font-style: italic !important;
   text-emphasis: none !important;
-}
-
-.yue li.task-item {
-  list-style-type: none;
-}
-.yue .task-item input[type="checkbox"] {
-  margin: 0 0.3em 0.4em -1em;
-  vertical-align: middle;
 }
