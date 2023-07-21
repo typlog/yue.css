@@ -65,3 +65,6 @@
 .admonition.important {
   --admonition-color: 179, 127, 235;
 }
+.admonition.warning {
+  --admonition-color: 255, 145, 0;
+}
