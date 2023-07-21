@@ -68,16 +68,19 @@
   position: relative;
   margin-top: 1.6em;
   margin-bottom: 1.6em;
+  --radius: 6px;
+  --margin: 1rem;
 }
 
 .block-code::after {
   position: absolute;
   content: attr(data-language);
-  top: 5px;
-  right: 8px;
+  top: 0.4rem;
+  right: 0.5rem;
   font-size: 10px;
   font-weight: 600;
-  color: var(--yue-c-bc);
+  font-family: var(--yue-f-mono);
+  color: var(--syntax-text);
   opacity: 0.6;
 }
 
@@ -89,11 +92,11 @@
 .highlight > pre {
   margin: 0;
   overflow: auto;
-  color: var(--yue-c-bc);
-  background-color: var(--yue-c-bc-bg);
+  color: var(--syntax-text);
+  background-color: var(--syntax-pre-bg);
 }
 .block-code > pre {
-  padding: 1.2em 1.5em;
+  padding: 1em 1.2em;
 }
 .highlight > pre {
   padding: 1.4em 0 1.3em;
@@ -115,48 +118,47 @@ table.highlight {
   border-radius: 0;
   border-collapse: collapse;
   width: 100%;
-  background-color: var(--yue-c-bc-bg);
 }
 table.highlight tr {
   border: 0;
 }
 table.highlight td {
-  padding: 0 8px;
+  padding: 0 0.8rem;
   border: 0;
 }
 table.highlight td[data-line] {
   text-align: right;
-  background-color: var(--yue-c-bc-gutter);
   width: 1px;
-  padding: 0 6px;
+  padding: 0 0.5rem;
+  box-shadow: -.05rem 0 var(--syntax-cap-bg) inset;
 }
 table.highlight td[data-line]:before {
   content: attr(data-line);
   opacity: 0.5;
 }
-table.highlight tr:first-of-type td {
-  padding-top: 8px;
-}
-table.highlight tr:last-of-type td {
-  padding-bottom: 14px;
+.highlight-table > pre {
+  padding: 0.8rem 0;
+  background-color: var(--syntax-pre-bg);
+  border-radius: var(--radius);
 }
 .highlight-table table.highlight tr {
   background-color: transparent;
 }
 .code-head {
-  background-color: var(--yue-c-bc-gutter);
+  background-color: var(--syntax-cap-bg);
+  padding: .4rem var(--margin);
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 .code-head pre {
   margin: 0;
   border: 0;
-  font-size: 12px;
+  font-size: .84rem;
   font-weight: 600;
-  padding: 4px 10px;
-  color: var(--yue-c-bc);
-  opacity: 0.86;
+  color: var(--syntax-text);
+  font-family: var(--yue-f-text);
 }
 .code-head + .highlight > pre,
-.code-head + .highlight-table {
+.code-head + .highlight-table > pre {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }

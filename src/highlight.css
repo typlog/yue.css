@@ -1,5 +1,5 @@
-.highlight { color: var(--syntax-default) }
-.highlight .hll { display: block; background-color: var(--syntax-attention-bg) }
+.highlight { color: var(--syntax-text); background-color: transparent }
+.highlight .hll { background-color: var(--syntax-highlight-bg) }
 .highlight .c { color: var(--syntax-comment) } /* Comment */
 .highlight .err { color: var(--syntax-invalid-illegal-text); background-color: var(--syntax-invalid-illegal-bg) } /* Error */
 .highlight .g { color: var(--syntax-meta) } /* Generic */
@@ -10,7 +10,7 @@
 .highlight .cm { color: var(--syntax-comment) } /* Comment.Multiline */
 .highlight .cp { color: var(--syntax-constant) } /* Comment.Preproc */
 .highlight .c1 { color: var(--syntax-comment) } /* Comment.Single */
-.highlight .cs { color: var(--syntax-comment); background-color: var(--syntax-attention-bg) } /* Comment.Special */
+.highlight .cs { color: var(--syntax-comment); background-color: var(--syntax-special-bg) } /* Comment.Special */
 .highlight .gd { color: var(--syntax-markup-deleted-text); background-color: var(--syntax-markup-deleted-bg) } /* Generic.Deleted */
 .highlight .ge { color: var(--syntax-markup-italic); font-style: italic } /* Generic.Emph */
 .highlight .gr { color: var(--syntax-invalid-illegal-text); background-color: var(--syntax-invalid-illegal-bg) } /* Generic.Error */
@@ -33,12 +33,12 @@
 .highlight .il { color: var(--syntax-constant) } /* Literal.Number.Integer.Long */
 .highlight .na { color: var(--syntax-constant) } /* Name.Attribute */
 .highlight .nb { color: var(--syntax-builtin) } /* Name.Builtin */
-.highlight .nc { color: var(--syntax-constant) } /* Name.Class */
+.highlight .nc { color: var(--syntax-definition) } /* Name.Class */
 .highlight .no { color: var(--syntax-constant) } /* Name.Constant */
 .highlight .nd { color: var(--syntax-entity) } /* Name.Decorator */
 .highlight .ni { color: var(--syntax-entity) } /* Name.Entity */
 .highlight .ne { color: var(--syntax-exception) } /* Name.Exception */
-.highlight .nf { color: var(--syntax-constant) } /* Name.Function */
+.highlight .nf { color: var(--syntax-definition) } /* Name.Function */
 .highlight .nt { color: var(--syntax-tag) } /* Name.Tag */
 .highlight .ow { color: var(--syntax-constant) } /* Operator.Word */
 .highlight .w { color: var(--syntax-meta) } /* Text.Whitespace */
